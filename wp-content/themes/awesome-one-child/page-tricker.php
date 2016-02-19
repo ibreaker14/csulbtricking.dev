@@ -22,7 +22,12 @@ get_header(); ?>
                 	if ( comments_open() || '0' != get_comments_number() )
                     	comments_template();
 
-                echo types_render_field("custom-field-slug-name", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
+                 <?php //types echo custom fields
+                echo types_render_field("profile-photo", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
+                echo "<br>";
+                echo types_render_field("email-d1d6a7ea", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));echo "<br>";
+                echo types_render_field("phone-number", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
+                ?>
 
                 ?>
             <?php endwhile; // end of the loop. ?>
