@@ -23,7 +23,7 @@
 			echo '</div><br />';
 		}
         ?>
-        <?php the_content(); ?>
+        <div class="custom-content entry-content"><?php the_content(); ?></div>
         <?php
         wp_link_pages( array(
             'before' => '<div class="page-links">' . __( 'Pages:', 'awesomeone' ),

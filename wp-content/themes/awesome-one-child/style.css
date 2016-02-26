@@ -12,3 +12,10 @@
  /* == Add your own styles below this line ==
 --------------------------------------------*/
 
+.entry-title{
+	color: #00FF12 !important;
+}
+
+.custom-content{
+	font-family: "sans-serif" !important;
+}
